@@ -31,6 +31,11 @@ public class SpringConfig {
     }
 
 //    @Bean
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }   // 이렇게 작성해주거나. TimeTraceAop 클래스 위에 @Component 달아주기
+
+//    @Bean
 //    public MemberRepository memberRepository() {
 ////        return new MemoryMemberRepository();
 ////        return new JdbcTemplateMemberRepository(dataSource);
